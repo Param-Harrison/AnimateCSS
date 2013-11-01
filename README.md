@@ -1,4 +1,6 @@
 AnimateCSS
 ==========
 
-Trying to implement css3 Anmations
+Implementing CSS3 Animations!
+
+OOPS, Learning CSS3!
