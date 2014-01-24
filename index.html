@@ -6,13 +6,14 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title></title>
+        <title>Animate CSS</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width">
 
+        <link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
+        <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet" type='text/css'>
         <link rel="stylesheet" href="css/normalize.min.css">
         <link rel="stylesheet" href="css/main.css">
-
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
     </head>
     <body>
@@ -20,20 +21,43 @@
             <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
         <![endif]-->
 
-        <div class="loader loadertop"></div>
-		<div class="loader loaderbottom"></div>
+        <!--Gallery Design-->
+        <section class="gallery">
+            <ul class="gallery-items">
+                <li class="gallery-item">
+                    <img class="fade-in one" src="img/1.jpg" alt="image alt">
+                    <div class="overlay slide">
+                        <div class="category">
+                            <span class="icon"></span>
+                        </div>
+                        <h3>Display graphics in style</h3>
+                        <p>A quick caption for the project, which can contain short description with additional stylings to match your design.</p>
+                        <div class="divider"></div>
+                        <div class="image-links"> 
+                            <a class="icon tooltip link-one"><span>More info</span></a> 
+                            <a class="icon tooltip link-two"><span>Open project</span></a> 
+                            <a class="icon tooltip link-three"><span>Get a quote</span></a>
+                        </div>
+                    </div>
+                </li>
+                <li class="gallery-item">
+                    <img class="fade-in two zoom" src="img/2.jpg" alt="image alt">
+                    <div class="overlay scale">
+                        <h3>Some awesome project</h3>
+                        <p>A quick caption for the project, which can contain short or a long description with additional stylings to match your design and layout.</p>
+                        <div class="image-links"> 
+                            <a class="icon tooltip link-one"><span>More info</span></a> 
+                            <a class="icon tooltip link-two"><span>Open project</span></a> 
+                            <a class="icon tooltip link-three"><span>Get a quote</span></a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </section>
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.1.min.js"><\/script>')</script>
 
-        <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
-
-        <script>
-            var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
-            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-            g.src='//www.google-analytics.com/ga.js';
-            s.parentNode.insertBefore(g,s)}(document,'script'));
-        </script>
     </body>
 </html>
