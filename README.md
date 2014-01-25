@@ -1,7 +1,7 @@
 AnimateCSS
 ==========
 
-Learning and Developing new things in HTML5 and CSS3 along with a little helf from jQuery
+Learning and Developing new things in HTML5 and CSS3 along with a little help from jQuery
 
 Technologies Used
 -----------------
