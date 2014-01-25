@@ -1,0 +1,71 @@
+.spinner-wave {
+    margin: 10px auto;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+}
+.spinner-wave > div {
+    background-color: #333;
+    height: 100%;
+    width: 6px;
+    display: inline-block;
+
+    -webkit-animation: wave 1.6s infinite ease-in-out;
+    -moz-animation: wave 1.6s infinite ease-in-out;
+    -o-animation: wave 1.6s infinite ease-in-out;
+    -ms-animation: wave 1.6s infinite ease-in-out;
+    animation: wave 1.6s infinite ease-in-out;
+}
+
+.spinner-wave div:nth-child(2) {
+    -webkit-animation-delay: -1.4s;
+    -moz-animation-delay: -1.4s;
+	-ms-animation-delay: -1.4s;
+	-o-animation-delay: -1.4s;
+    animation-delay: -1.4s;
+}
+
+.spinner-wave div:nth-child(3) {
+    -webkit-animation-delay: -1.2s;
+    -moz-animation-delay: -1.2s;
+	-ms-animation-delay: -1.2s;
+	-o-animation-delay: -1.2s;
+    animation-delay: -1.2s;
+}
+
+.spinner-wave div:nth-child(4) {
+    -webkit-animation-delay: -1.0s;
+    -moz-animation-delay: -1.0s;
+	-ms-animation-delay: -1.0s;
+	-o-animation-delay: -1.0s;
+    animation-delay: -1.0s;
+}
+
+.spinner-wave div:nth-child(5) {
+    -webkit-animation-delay: -0.8s;
+    -moz-animation-delay: -0.8s;
+	-ms-animation-delay: -0.8s;
+	-o-animation-delay: -0.8s;
+    animation-delay: -0.8s;
+}
+
+@-webkit-keyframes wave {
+    0%, 40%, 100% { -webkit-transform: scaleY(0.4) }
+    20% { -webkit-transform: scaleY(1.0) }
+}
+@-moz-keyframes wave {
+    0%, 40%, 100% { transform: scaleY(0.4); }
+    20% { transform: scaleY(1.0); }
+}
+@-o-keyframes wave {
+    0%, 40%, 100% { transform: scaleY(0.4); }
+    20% { transform: scaleY(1.0); }
+}
+@-ms-keyframes wave {
+    0%, 40%, 100% { transform: scaleY(0.4); }
+    20% { transform: scaleY(1.0); }
+}
+@keyframes wave {
+    0%, 40%, 100% { transform: scaleY(0.4); }
+    20% { transform: scaleY(1.0); }
+}
