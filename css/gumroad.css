@@ -1,0 +1,38 @@
+body {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 100%;
+    vertical-align: baseline;
+    line-height: normal;
+    -webkit-font-smoothing: antialiased;
+    background: #257679;
+  	color: #ffffff;
+}
+.gumroad {
+  width: 100%;
+  height: 320px;
+  text-align: center;
+}
+.gumroad h2 {
+  font-size: 2.6em;
+  padding: 5% 0 2% 0;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  -ms-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+.gumroad p {
+	font-size: 1.3em;
+}
+.gumroad .holder {
+	color: #FFD600;
+    vertical-align: top;
+}
